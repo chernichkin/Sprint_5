@@ -17,8 +17,8 @@ class Locators():
     BUTTON_EXIT = (By.XPATH, "//button[text()='Выход']") #Кнопка «Выйти"
     BUTTON_CONSTRUCTOR = (By.XPATH, "//p[text()='Конструктор']") #Кнопка перехода в конструктор(главную)
     SAUCES_SECTION = (By.XPATH, "//span[contains(text(),'Соусы')]") #Раздел «Соусы»
-    PARENT_SAUCES_SECTION = (By.XPATH, "//span[contains(text(),'Соусы')]/parent::*")
+    PARENT_SAUCES_SECTION = (By.XPATH, "//span[contains(text(),'Соусы')]/parent::*") #Родительский раздел для соусов
     BUNS_SECTION = (By.XPATH, "//span[contains(text(),'Булки')]") #Раздел «Булки»
-    PARENT_BUNS_SECTION = (By.XPATH, "//span[contains(text(),'Булки')]/parent::*")
+    PARENT_BUNS_SECTION = (By.XPATH, "//span[contains(text(),'Булки')]/parent::*") #Родительский раздел для булок
     STUFFING_SECTION = (By.XPATH, "//span[contains(text(),'Начинки')]") #Раздел «Начинки»
-    PARENT_STAFFING_SECTION = (By.XPATH, "//span[contains(text(),'Начинки')]/parent::*") #Родитель раздела "Ночинки"
+    PARENT_STAFFING_SECTION = (By.XPATH, "//span[contains(text(),'Начинки')]/parent::*") #Родитель раздела "Начинки"
